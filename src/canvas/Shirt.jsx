@@ -19,7 +19,7 @@ const Shirt = ({ moveDecal }) => {
   const group = useRef();
 
   const snap = useSnapshot(state);
-  const { nodes, materials } = useGLTF('/shirt_baked.glb');
+  const { nodes, materials } = useGLTF('./shirt_baked.glb');
   // The '.glb' file is from a model made from blender.
 
   const logoTexture = useTexture(snap.logoDecal);
