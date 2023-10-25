@@ -2,7 +2,7 @@
   "name": "react-tcus",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mikeedaw.github.io/React_Project/",
+  "homepage": "https://mikeedaw.github.io/React_Project",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
